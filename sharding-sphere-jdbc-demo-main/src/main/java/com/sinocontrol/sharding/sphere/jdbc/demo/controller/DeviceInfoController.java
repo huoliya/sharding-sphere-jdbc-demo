@@ -1,6 +1,6 @@
 package com.sinocontrol.sharding.sphere.jdbc.demo.controller;
 
-import com.sinocontrol.sharding.sphere.jdbc.demo.domain.entity.InspMesModel;
+import com.sinocontrol.sharding.sphere.jdbc.demo.domain.InspMesModel;
 import com.sinocontrol.sharding.sphere.jdbc.demo.service.DeviceInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

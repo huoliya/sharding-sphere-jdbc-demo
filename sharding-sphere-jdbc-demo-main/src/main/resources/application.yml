@@ -7,7 +7,6 @@ spring:
   shardingsphere:
     datasource:
       names: m1
-#      ,slave1,slave2
       m1:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.cj.jdbc.Driver

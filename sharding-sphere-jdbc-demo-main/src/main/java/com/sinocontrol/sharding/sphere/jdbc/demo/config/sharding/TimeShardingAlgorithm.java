@@ -2,7 +2,6 @@ package com.sinocontrol.sharding.sphere.jdbc.demo.config.sharding;
 
 
 import com.google.common.collect.Range;
-import com.sinocontrol.sharding.sphere.jdbc.demo.config.sharding.enums.ShardingTableCacheEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shardingsphere.sharding.api.sharding.standard.PreciseShardingValue;
 import org.apache.shardingsphere.sharding.api.sharding.standard.RangeShardingValue;

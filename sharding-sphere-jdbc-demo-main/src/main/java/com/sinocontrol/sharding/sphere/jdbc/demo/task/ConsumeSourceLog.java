@@ -1,7 +1,6 @@
 package com.sinocontrol.sharding.sphere.jdbc.demo.task;
 
-
-import com.sinocontrol.sharding.sphere.jdbc.demo.domain.entity.InspMesModel;
+import com.sinocontrol.sharding.sphere.jdbc.demo.domain.InspMesModel;
 import com.sinocontrol.sharding.sphere.jdbc.demo.util.CommonMethod;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -2,7 +2,7 @@ package com.sinocontrol.sharding.sphere.jdbc.demo.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.sinocontrol.sharding.sphere.jdbc.demo.domain.entity.InspMesModel;
+import com.sinocontrol.sharding.sphere.jdbc.demo.domain.InspMesModel;
 import com.sinocontrol.sharding.sphere.jdbc.demo.mapper.MallOrderRepository;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.beans.factory.annotation.Autowired;

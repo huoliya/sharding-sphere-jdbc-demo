@@ -2,7 +2,7 @@ package com.sinocontrol.sharding.sphere.jdbc.demo.util;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sinocontrol.sharding.sphere.jdbc.demo.domain.entity.InspMesModel;
+import com.sinocontrol.sharding.sphere.jdbc.demo.domain.InspMesModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

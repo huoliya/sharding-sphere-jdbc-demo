@@ -1,12 +1,10 @@
-package com.sinocontrol.sharding.sphere.jdbc.demo.config.sharding.enums;
+package com.sinocontrol.sharding.sphere.jdbc.demo.config.sharding;
 
 import java.util.*;
 
 public enum ShardingTableCacheEnum {
 
-    /**
-     * 用户表
-     */
+
     USER("alarm", new HashSet<>());
 
     /**

@@ -131,6 +131,12 @@
             <artifactId>commons-dbcp2</artifactId>
             <version>2.2.0</version>
         </dependency>
+<!--&lt;!&ndash;        &lt;!&ndash;引入baomidou的切换数据源的依赖&ndash;&gt;&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.baomidou</groupId>-->
+<!--            <artifactId>dynamic-datasource-spring-boot-starter</artifactId>-->
+<!--            <version>3.6.1</version>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>

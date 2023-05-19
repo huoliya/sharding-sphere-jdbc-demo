@@ -1,7 +1,6 @@
 package com.sinocontrol.sharding.sphere.jdbc.demo.config.sharding;
 
 import cn.hutool.extra.spring.SpringUtil;
-import com.sinocontrol.sharding.sphere.jdbc.demo.config.sharding.enums.ShardingTableCacheEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.apache.shardingsphere.driver.jdbc.core.datasource.ShardingSphereDataSource;
