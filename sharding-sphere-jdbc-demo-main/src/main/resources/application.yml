@@ -4,6 +4,24 @@ spring:
       matching-strategy: ant_path_matcher
   application:
     name: sharding-sphere-jdbc-demo
+  datasource:
+    dynamic:
+      # 指定默认数据源名称
+      primary: tour
+      strict: false
+      datasource:
+        mysql:
+          type: com.alibaba.druid.pool.DruidDataSource
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://192.168.0.230:3306/alarm-base?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai&useJDBCCompliantTimezoneShift=true
+          username: root
+          password: buctGCTCWork@
+        starrocks:
+          type: com.alibaba.druid.pool.DruidDataSource
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://192.168.0.13:9030/alarmdata?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai&useJDBCCompliantTimezoneShift=true
+          username: root
+          password:
   shardingsphere:
     datasource:
       names: m1
@@ -47,8 +65,8 @@ spring:
       sql-show: false
   main:
     allow-bean-definition-overriding: true
+
 server:
   port: 12800
 customize:
   mapper-scan: com.sinocontrol.sharding.sphere.jdbc.demo.mapper
-

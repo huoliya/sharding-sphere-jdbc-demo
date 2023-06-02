@@ -33,7 +33,7 @@ public class ConsumeSourceLog {
                 return;
 
             messages.add(inspMes);
-            if (nowTime.getTime() - lastTime.getTime() > 10000 || messages.size() > 10000) {
+            if (nowTime.getTime() - lastTime.getTime() > 10000 || messages.size() > 3000) {
                 log.info(" process  data :" + messages.size());
                 distributeIotData.processData(messages);
                 lastTime = new Date();

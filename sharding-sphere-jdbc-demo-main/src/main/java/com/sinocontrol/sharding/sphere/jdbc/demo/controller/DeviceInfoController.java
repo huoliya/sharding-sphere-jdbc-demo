@@ -1,6 +1,7 @@
 package com.sinocontrol.sharding.sphere.jdbc.demo.controller;
 
 import com.sinocontrol.sharding.sphere.jdbc.demo.domain.InspMesModel;
+import com.sinocontrol.sharding.sphere.jdbc.demo.domain.InspMesModel2;
 import com.sinocontrol.sharding.sphere.jdbc.demo.service.DeviceInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +17,7 @@ public class DeviceInfoController {
     private DeviceInfoService deviceInfoService;
 
     @RequestMapping(value = "/deviceInfo", method = RequestMethod.GET)
-    public List<InspMesModel> getItems(Date startTime, Date endTime, String code, Integer pageNum, Integer pageSize) {
+    public List<InspMesModel2> getItems(Date startTime, Date endTime, String code, Integer pageNum, Integer pageSize) {
         return deviceInfoService.findDataByCondition(startTime, endTime, code, pageNum, pageSize);
     }
 

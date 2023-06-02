@@ -17,7 +17,7 @@
     <properties>
         <java.version>1.8</java.version>
         <!--核心依赖-->
-        <shardingsphere-jdbc.version>5.1.0</shardingsphere-jdbc.version>
+        <shardingsphere-jdbc.version>5.1.1</shardingsphere-jdbc.version>
         <snakeyaml.version>1.32</snakeyaml.version>
         <mysql-connector.version>8.0.17</mysql-connector.version>
         <druid.version>1.2.16</druid.version>
@@ -29,12 +29,10 @@
         <swagger-version>2.9.2</swagger-version>
     </properties>
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
@@ -55,7 +53,6 @@
             <artifactId>shardingsphere-jdbc-core-spring-boot-starter</artifactId>
             <version>${shardingsphere-jdbc.version}</version>
         </dependency>
-
         <dependency>
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
@@ -131,12 +128,11 @@
             <artifactId>commons-dbcp2</artifactId>
             <version>2.2.0</version>
         </dependency>
-<!--&lt;!&ndash;        &lt;!&ndash;引入baomidou的切换数据源的依赖&ndash;&gt;&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.baomidou</groupId>-->
-<!--            <artifactId>dynamic-datasource-spring-boot-starter</artifactId>-->
-<!--            <version>3.6.1</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+            <version>3.3.2</version>
+        </dependency>
     </dependencies>
 
     <build>
